@@ -11,7 +11,7 @@ class NORDVPN:
 			params = {
 				"user": "trejohninvestments@gmail.com",
 				"pass": "trej4049",
-				"proxies": proxy_url #optional but recommended
+				"proxies": proxy_url #optional but recommended | remove this option if not using proxy
 			}
 			try:
 				response = session.get(url, params=params, timeout=10)
@@ -28,4 +28,5 @@ nd.login(user=email,password=password,proxy_url=proxy_url)
 
 # -----------------------------------------------------------------------
 # ✅NOTICE: THIS API HAS LIMIT, IF U R INTERESTED IN SOURCE CODE YOU CAN CONTACT ME.
+
 
