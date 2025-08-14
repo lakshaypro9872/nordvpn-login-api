@@ -9,8 +9,8 @@ class NORDVPN:
 		with requests.Session() as session:
 			url = "https://nordvpn.josiftools.com/nordlogin"
 			params = {
-				"user": "trejohninvestments@gmail.com",
-				"pass": "trej4049",
+				"user": user,
+				"pass": password,
 				"proxies": proxy_url #optional but recommended | remove this option if not using proxy
 			}
 			try:
@@ -28,5 +28,6 @@ nd.login(user=email,password=password,proxy_url=proxy_url)
 
 # -----------------------------------------------------------------------
 # ✅NOTICE: THIS API HAS LIMIT, IF U R INTERESTED IN SOURCE CODE YOU CAN CONTACT ME.
+
 
 
